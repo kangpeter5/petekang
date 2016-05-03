@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <meta name="description" content="Pete Kang is a full-stack web developer with experiences in videography, automotive engineering, and social media marketing.">
 
-  <title>Pete Kang - Full Stack Web Developer</title>
+  <title>Pete Kang | Full Stack Web Developer</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,34 +13,22 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!-- browser tab icon image -->
   <!-- <link rel="icon" type="image/ico" href="images/me.ico" sizes="16x16"> -->
-  <!-- <link rel="icon" type="image/ico" href="images/me.ico" sizes="32x32"> -->
   <link rel="icon" type="image/png" href="images/me.png" sizes="16x16">
   <!-- <link rel="icon" type="image/png" href="images/me.png" sizes="32x32"> -->
-  <link rel="stylesheet" type="text/css" href="">
-
   <!-- END browser tab icon image -->
-  <style type="text/css">
-    @font-face{
-      font-family: montserrat;
-      src: url(fonts/Montserrat-Regular.ttf);
-    }
-    div{
-      font-family: montserrat;
-    }
-  </style>
 
 </head>
 
-<body class="grey lighten-3">
+<body class="bodyEm">
   <div class="navbar-fixed">
-  <nav class="grey lighten-3" role="navigation">
+  <nav class="bodyEm" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" class="brand-logo">Hello</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#HOME">Home</a></li>
         <li><a href="#ABOUTME">About Me</a></li>
         <li><a href="#EXPERIENCE">Experience</a></li>
-        <li><a href="https://www.youtube.com/user/strifetv">Strife.TV</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/user/strifetv">Strife.TV</a></li>
         <li><a href="#CONTACT">Contact</a></li>
       </ul>
 
@@ -61,9 +49,9 @@
       <div class="container" id="HOME">
         <br><br>
         <div>
-          <h1 class="header center text-lighten-2">Pete Kang</h1>
+          <h1 class="header center text-lighten-2 hcolor">Pete Kang</h1>
           <div class="row center">
-            <h5>Full-stack web developer</h5>
+            <h5 class="hcolor">Full-stack web developer</h5>
           </div>
         </div>
         <br><br>
@@ -80,14 +68,17 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>About Me</h4>
-          <div class="row valign-wrapper">
-            <div class="col s3">
-              <img src="images/me.jpg" alt="" class="circle responsive-img" width="100px"> <!-- notice the "circle" class -->
+          <div class="row valign-wrapper" id="aboutDiv">
+            <div id="myPic">
+              <img src="images/me.png" class="responsive-img"> 
+            <!-- // notice the "circle" class -->
             </div>
-            <div class="col s10">
-              <p class="left-align light">I am a Full-stack web developer with experience in MEAN, RoR, and LAMP.</p>
+            <div id="backupoffme" max-width="300px">
+            <!-- <div class="col" id="backupoffme"> -->
+            <!-- <img src="images/me.jpg" alt="" class="circle responsive-img" width="200px"> -->
+              <p class="left-align light">I am a Full-Stack Web Developer with experience in <a target="_blank" href="https://github.com/MCKnute/codingdojo_alumni">MEAN</a>, <a target="_blank" href="https://github.com/MCKnute/rails_payme_project">Ruby on Rails</a>, and <a target="_blank" href="https://github.com/kangpeter5/KMK_eCommerce_php">LAMP</a>.</p>
               <p class="left-align light">I started out as a Battery Systems Test Engineer for <a href="https://www.linkedin.com/in/kangpeter" target="_blank">General Motors</a> writing and running automated-tests (using Visual Basics & iTest) for the Chevrolet Volt and other hybrid vehicles.</p>
-              <p class="left-align light">At the same time, I became a videographer/part-owner at <a target="_blank" href="https://www.youtube.com/user/strifetv">Strife.TV</a> to document and explore the different urban dance cultures around the world. Also, I also helped manage all social media accounts for <a target="_blank" href="http://supercr3w.com/">SuperCr3w</a>.</p>
+              <p class="left-align light">At the same time, I became a videographer/part-owner at <a target="_blank" href="https://www.youtube.com/user/strifetv">Strife.TV</a> to document and explore the different urban dance cultures around the world. Also, I helped manage all social media accounts for <a target="_blank" href="http://supercr3w.com/">SuperCr3w</a>.</p>
             </div>
           </div>
         </div>
@@ -96,16 +87,18 @@
   </div>
 <!-- END About Me -->
 
+<!-- Motivational Quotes -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">"Motivational Quotes... Don't always work"</h5>
+          <h3 class="hcolor header col s12 light">"<span style="color: #ff3333;">Motivational Quotes</span>... Don't always work"</h3>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="cover.jpg" width="960px" alt="Unsplashed background img 3"></div>
   </div>
+<!-- END motivation -->
 
 <!-- EXPERIENCE SECTION -->
   <div class="container" id="EXPERIENCE">
@@ -121,7 +114,7 @@
                 <li>
                   <div class="collapsible-header center stacksAhoy waves-effect btn">Languages</div>
                   <div class="collapsible-body">
-                    <ul class="light center">
+                    <ul class="light center spaceneedle">
                       <li class="light">JavaScript</li>
                       <li class="light">Ruby</li>
                       <li class="light">PHP</li>
@@ -133,7 +126,7 @@
                 <li>
                   <div class="collapsible-header center stacksAhoy waves-effect btn">Frameworks</div>
                   <div class="collapsible-body">
-                    <ul class="light center">
+                    <ul class="light center spaceneedle">
                       <li class="light">Angular</li>
                       <li class="light">Bootstrap</li>
                       <li class="light">Materialize</li>
@@ -146,7 +139,7 @@
                 <li>
                   <div class="collapsible-header center stacksAhoy waves-effect btn">DBs / ORMS</div>
                   <div class="collapsible-body">
-                    <ul class="light center">
+                    <ul class="light center spaceneedle">
                       <li class="light">MySql</li>
                       <li class="light">ActiveRecord</li>
                       <li class="light">PostqreSQL</li>
@@ -169,8 +162,8 @@
                   <div class="collapsible-body">
                     <ul class="light center">
                       <li class="dark"><h5 class="stackHead">KMK Tees</h5></li>
-                      <li class="light">This is a PHP web app with a CodeIgniter framework, MySQL database, and Stripe API payment system.</li>
-                      <li class="light"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/kangpeter5/KMK_eCommerce_php">View on GitHub</a></li>
+                      <li class="light sittinSideWays">This is a PHP web app with a CodeIgniter framework, MySQL database, and Stripe API payment system.</li>
+                      <li class="light spaceneedle"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/kangpeter5/KMK_eCommerce_php">View on GitHub</a></li>
                     </ul>
                   </div>
                 </li>
@@ -179,8 +172,8 @@
                   <div class="collapsible-body">
                     <ul class="light center">
                       <li class="dark"><h5 class="stackHead">PayMe</h5></li>
-                      <li class="light">This is a Ruby on Rails web app for invoices and earnings reports, completed from start to finish within 4 1/2 days. All team members had only 3 weeks of intensive training on Ruby and RoR before starting this project.</li>
-                      <li class="light"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/MCKnute/rails_payme_project">View on GitHub</a></li>
+                      <li class="light sittinSideWays">This is a Ruby on Rails web app for invoices and earnings reports, completed from start to finish within 4 1/2 days. All team members had only 3 weeks of intensive training on Ruby and RoR before starting this project.</li>
+                      <li class="light spaceneedle"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/MCKnute/rails_payme_project">View on GitHub</a></li>
                     </ul>
                   </div>
                 </li>
@@ -189,8 +182,8 @@
                   <div class="collapsible-body">
                     <ul class="light center">
                       <li class="dark"><h5 class="stackHead">CodingDojo onTap</h5></li>
-                      <li class="light">CD onTap is a professional networking site for Coding Dojo alumni. This app makes heavy use of Angular to deliver a fully-featured single page application with search functionality. Users are able to post and search available jobs and quickly keep track of their former classmates' professional careers.</li>
-                      <li class="light"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/MCKnute/codingdojo_alumni">CodingDojo onTap</a></li>
+                      <li class="light sittinSideWays">CD onTap is a professional networking site for Coding Dojo alumni. This app makes heavy use of Angular to deliver a fully-featured single page application with search functionality. Users are able to post and search available jobs and quickly keep track of their former classmates' professional careers.</li>
+                      <li class="light spaceneedle"><a target="_blank" class="waves-effect waves-light btn" href="https://github.com/MCKnute/codingdojo_alumni">View on GitHub</a></li>
                     </ul>
                   </div>
                 </li>
@@ -203,17 +196,20 @@
   </div>
 <!-- END Experience section -->
 
+<!-- THAT attitude -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">"Not with THAT attitude"</h5>
+          <h3 class="hcolor header col s12 light">"Not with <span style="color: #4d88ff;">THAT</span> attitude"</h3>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="images/covercovercover.jpg" width="960px" alt="Unsplashed background img 2"></div>
   </div>
+<!-- END attitude -->
 
+<!-- CONTACT ME -->
   <div class="container" id="CONTACT">
     <div class="section">
 
@@ -226,12 +222,13 @@
       </div>
     </div>
   </div>
+<!-- END contact me -->
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Thanks for stopping by</h5>
+          <!-- <h5 class="header col s12 light">Thanks for stopping by</h5> -->
         </div>
       </div>
     </div>
@@ -239,11 +236,9 @@
     <div class="parallax"><img src="images/we.jpg" width="500px" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="footer-copyright">
-      <div class="container">
-      Made by Pete Kang with <a target="_blank" class="brown-text text-lighten-3" href="http://materializecss.com/">Materialize</a> framework
-      </div>
+  <footer class="page-footer footer-copyright">
+    <div class="container">
+      <p>&copy;2016 Pete Kang</p>
     </div>
   </footer>
 

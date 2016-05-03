@@ -11,6 +11,44 @@ nav .brand-logo {
   color: #444;
 }
 
+/* FONTS */
+/* @font-face{
+      font-family: comfortaa;
+      src: url(fonts/Comfortaa-Regular.ttf);
+    }
+    div{
+      font-family: comfortaa;
+    }*/
+
+/*@font-face {
+  font-family: "Comfortaa";
+  src: local(Comfortaa Light), url("../fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: local(Comfortaa Regular), url("../fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  font-weight: 400;
+}*/
+@font-face {
+  font-family: "Comfortaa";
+  src: local(Comfortaa Bold), url("../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+html {
+  line-height: 1.5;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+/* END fonts*/
+ 
+.bodyEm{
+  background-color: #cde3fd;
+  background-image: url("images/backgroundgalore.jpg");
+}
+
 p {
   line-height: 2rem;
 }
@@ -42,15 +80,48 @@ p {
 }
 /* END div anchor*/
 
+#backupoffme p{
+  text-align: left-center;
+  max-width: 650px;
+}
+
+#myPic{
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutDiv{
+  display: inline-block;
+
+}
+
+.hcolor{
+  color: #e6e6e6;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+/*Experience Projects*/
+.spaceneedle{
+  margin: 10px 0;
+}
+.sittinSideWays{
+  margin: 0 20px;
+}
+/*END of Experience Projects*/
+
+/* Containers */
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: #6bd0ee;
 }
   .parallax-container .section {
     width: 100%;
   }
+
+/* END Containers*/
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -77,4 +148,9 @@ p {
 
 footer.page-footer {
   margin: 0;
+  background-color: #c9e5fb;
+}
+footer.page-footer div{
+  text-align: center;
+  color: black;
 }
