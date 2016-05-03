@@ -146,11 +146,14 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
-  margin: 0;
-  background-color: #c9e5fb;
-}
-footer.page-footer div{
+footer.page-footer{
+  margin-bottom: 0;
+  background-color: #dadcdf;
   text-align: center;
   color: black;
+}
+footer.page-footer div{
+  /*
+  color: black;
+  margin-bottom: 20px;*/
 }
