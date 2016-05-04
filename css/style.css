@@ -1,35 +1,8 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
-/* FONTS */
-/* @font-face{
-      font-family: comfortaa;
-      src: url(fonts/Comfortaa-Regular.ttf);
-    }
-    div{
-      font-family: comfortaa;
-    }*/
-
-/*@font-face {
-  font-family: "Comfortaa";
-  src: local(Comfortaa Light), url("../fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Comfortaa";
-  src: local(Comfortaa Regular), url("../fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
-  font-weight: 400;
-}*/
 @font-face {
   font-family: "Comfortaa";
   src: local(Comfortaa Bold), url("../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
@@ -46,7 +19,6 @@ html {
  
 .bodyEm{
   background-color: #dadcdf;
-  /*background-image: url(images/backgroundgalore.jpg);*/
 }
 
 p {
@@ -71,9 +43,7 @@ p {
   color: #26a69a;
 }
 
-/**
- * div anchor
- */
+/*div anchor*/
 #ABOUTME, #HOME, #EXPERIENCE, #CONTACT{
   padding-top:40px;
   margin-top:10px;
@@ -120,7 +90,6 @@ p {
   .parallax-container .section {
     width: 100%;
   }
-
 /* END Containers*/
 
 @media only screen and (max-width : 992px) {
@@ -151,9 +120,4 @@ footer.page-footer{
   background-color: #dadcdf;
   text-align: center;
   color: black;
-}
-footer.page-footer div{
-  /*
-  color: black;
-  margin-bottom: 20px;*/
 }
