@@ -26,6 +26,7 @@ body, html{
 }
 
 .star-wars-intro p.intro-text {
+  background-color: #000000;
   position: relative;
   max-width: 16em;
   font-size: 200%;
@@ -117,11 +118,11 @@ body, html{
   text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
   opacity: 0;
   z-index: 1;
-  -webkit-animation: logo 5s ease-out 2.5s;
-  -moz-animation: logo 5s ease-out 2.5s;
-  -ms-animation: logo 5s ease-out 2.5s;
-  -o-animation: logo 5s ease-out 2.5s;
-  animation: logo 5s ease-out 2.5s;
+  -webkit-animation: logo 7s ease-out 2s;
+  -moz-animation: logo 7s ease-out 2s;
+  -ms-animation: logo 7s ease-out 2s;
+  -o-animation: logo 7s ease-out 2s;
+  animation: logo 7s ease-out 2s;
 }
 
 .star-wars-intro .main-logo > img {
