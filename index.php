@@ -1,4 +1,4 @@
-<?php include_once("first.html"); ?>
+<?php include_once("home.html"); ?>
 <!DOCTYPE html>
 <html>
 <head>
