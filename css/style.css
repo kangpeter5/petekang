@@ -5,7 +5,7 @@ nav .brand-logo {
 
 @font-face {
   font-family: "Montserrat";
-  src: local(Montserrat Regular), url("../fonts/Comfortaa/Montserrat-Regular.ttf") format("truetype");
+  src: local(Montserrat Regular), url("../fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
@@ -45,8 +45,8 @@ p {
 
 /*div anchor*/
 #ABOUTME, #HOME, #EXPERIENCE, #CONTACT{
-  padding-top:40px;
-  margin-top:10px;
+  padding-top:30px;
+  /*margin-top:30px;*/
 }
 /* END div anchor*/
 
@@ -57,13 +57,13 @@ p {
 
 #myPic{
   max-width: 250px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 30px;
+ /* margin-left: auto;
+  margin-right: auto;*/
 }
 
 #aboutDiv{
-  display: inline-block;
-
+  /*display: inline;*/
 }
 
 .hcolor{
