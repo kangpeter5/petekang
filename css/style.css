@@ -4,14 +4,14 @@ nav .brand-logo {
 }
 
 @font-face {
-  font-family: "Comfortaa";
-  src: local(Comfortaa Bold), url("../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
-  font-weight: 700;
+  font-family: "Montserrat";
+  src: local(Montserrat Regular), url("../fonts/Comfortaa/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 
 html {
   line-height: 1.5;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
