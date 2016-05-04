@@ -67,7 +67,8 @@ p {
 }
 
 .hcolor{
-  color: #e6e6e6;
+  color: #000000;
+  /*margin-top: 0 auto;*/
   /*text-shadow: 1px 1px 2px #000000;*/
 }
 
