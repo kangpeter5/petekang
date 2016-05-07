@@ -15,7 +15,6 @@ html {
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
-/* END fonts*/
  
 .bodyEm{
   background-color: #dadcdf;
@@ -46,7 +45,6 @@ p {
 /*div anchor*/
 #ABOUTME, #HOME, #EXPERIENCE, #CONTACT{
   padding-top:30px;
-  /*margin-top:30px;*/
 }
 /* END div anchor*/
 
@@ -58,8 +56,6 @@ p {
 #myPic{
   max-width: 250px;
   margin-right: 30px;
- /* margin-left: auto;
-  margin-right: auto;*/
 }
 
 #aboutDiv{
@@ -67,8 +63,7 @@ p {
 }
 
 .hcolor{
-  color: #e7e7e7;
-  /*margin-top: 0 auto;*/
+  color: #e3e0e0;
   /*text-shadow: 1px 1px 2px #000000;*/
 }
 
