@@ -24,18 +24,20 @@ html {
 p {
   line-height: 2rem;
 }
-#aboutDiv{
-  max-width: 950px;
-}
-#mypic, #backupoffme{
-  display: inline-block;
+#backupoffme{
+  max-width: 640px;
+  margin: 0 auto;
 }
 #backupoffme p{
-  max-width: 800px;
-  margin: 5px 40px;
+  /*text-align: center;*/
+  margin: 5px 30px;
 }
 #myPic{
-  max-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
 }
 .instagram{
   width: 75px;
@@ -53,7 +55,7 @@ p {
 .strife, .supercr3w{
   text-align: center;
   display: inline-block;
-  margin: 15px 0;
+  margin: 10px 30px;
 }
 #strsup{
   font-size: 20px;
@@ -82,6 +84,7 @@ p {
 /* END div anchor*/
 .hcolor{
   color: #e3e0e0;
+  /*text-shadow: 1px 1px #d4d3d3;*/
 }
 /*Experience Projects*/
 .spaceneedle{
