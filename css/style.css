@@ -29,7 +29,6 @@ p {
   margin: 0 auto;
 }
 #backupoffme p{
-  /*text-align: center;*/
   margin: 5px 30px;
 }
 #myPic{
@@ -104,6 +103,18 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+/* OTHER WORKS section */
+.work-img img{
+  box-shadow: 5px 5px 5px #888888;
+}
+.work-img img:hover, .work-img img:active{
+  box-shadow: 5px 5px 10px #00e6e6;
+  width: 270px;
+}
+.work-img h5{
+  color: #00ace6;
+}
+/* END Other Works section*/
 /* END Containers*/
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
