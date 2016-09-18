@@ -103,18 +103,16 @@ p {
   .parallax-container .section {
     width: 100%;
   }
-/* OTHER WORKS section */
+/* WORK CONSULTATION section */
 .work-img img{
-  box-shadow: 5px 5px 5px #888888;
+  width: 300px;
 }
 .work-img img:hover, .work-img img:active{
-  box-shadow: 5px 5px 10px #00e6e6;
-  width: 270px;
+  width: 400px;
+  -webkit-transition: width 1.5s; /* Chrome, Safari, Opera */
+  transition: width 1.5s;
 }
-.work-img h5{
-  color: #1a75ff;
-}
-/* END Other Works section*/
+/* END WORK CONSULTATION section*/
 /* END Containers*/
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
