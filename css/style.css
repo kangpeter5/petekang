@@ -113,6 +113,36 @@ p {
   transition: width 1.5s;
 }
 /* END WORK CONSULTATION section*/
+/* Contact */
+#CONTACT .social-icon{
+  display: inline-block;
+  position: relative;
+  color: #000;
+  height: 60px;
+  padding: 5px;
+  margin: 0 10px;
+}
+#CONTACT .social-icon img{
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+}
+.social-icon:after{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.social-icon:hover:after{
+  border: 8px solid #000;
+  border-radius: 50%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* END of Contact */
 /* END Containers*/
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
